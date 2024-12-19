@@ -1,0 +1,48 @@
+h2 {
+    color: #9F0908;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.order-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.order-picture-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.order-img {
+    height: 128px;
+    width: 128px;
+    margin-bottom: 16px;
+}
+
+.pictures {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pictures span {
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+    width: 256px;
+}
+
+.section-line {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}

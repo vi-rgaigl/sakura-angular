@@ -1,5 +1,5 @@
 nav {
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     display: flex;
@@ -31,11 +31,13 @@ nav {
 .phone-btn {
     display: flex;
     align-items: center;
-    background-color: #ff4081;
+    background-color: #9F0908;
+    border: white 2px solid;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 8px;
+    cursor: pointer;
     &:hover {
-        background-color: #ff0055;
+        background-color: #c51b1b;
     }
     >img {
         width: 32px;

@@ -1,0 +1,55 @@
+h2 {color: #9F0908;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.our-menu {
+    background-image: url(./../../../assets/img/desktop.jpg);
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+.food {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    gap: 80px;
+}
+
+.food-table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table {
+    color: #675E54;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 16px;
+    border-collapse: separate;
+    border-spacing: 8px;
+    white-space: nowrap;
+}
+
+td:first-child {
+    width: 224px;
+}
+
+.food-table span {
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: left;
+}
+
+.food-picture {
+    width: 100%;
+    max-height: 352px;
+    max-width: 352px;
+    flex: 1;
+}
